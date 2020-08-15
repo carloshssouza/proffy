@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="/styles/partials/forms.css">
     
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+
+    <script src="/scripts/addField.js" defer></script>
 </head>
 <body id="page-give-classes">
 
@@ -26,7 +28,6 @@
             <div class="header-content">
                 <strong>Que íncrivel que você quer dar aulas</strong>
                 <p>O primeiro passo, é preencher esse formulário de inscrição</p>
-                
             </div>
         </header>
 
@@ -41,7 +42,7 @@
                     </div>
 
                     <div class="input-block">
-                        <label for="avatar">Link da sua foto <small>(comece com http://)</small></label>
+                        <label for="avatar">Link da sua foto <small>(comece com https://)</small></label>
                         <input name="avatar" id="avatar" type="url" required>
                     </div>
 
@@ -86,7 +87,7 @@
 
                 <fieldset id="schedule-items">
                     <legend>Horários disponíveis
-                        <button id="add-time">+ Novo Horário</button>
+                        <button type="button" id="add-time">+ Novo Horário</button>
                     </legend>
 
                     <div class="schedule-item">
@@ -127,5 +128,7 @@
            
         </main>
     </div>
+
+    
 </body>
 </html>
