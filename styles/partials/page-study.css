@@ -114,6 +114,7 @@
     border-radius: .8rem;
     cursor: pointer;
     font: 700 1.4rem Archivo;
+
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -125,7 +126,6 @@
 .teacher-item fotter button:hover {
     background: var(--color-secondary-dark);
 }
-
 
 @media(min-width:700px){
     #page-study #container{

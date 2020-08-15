@@ -15,8 +15,6 @@
     justify-content: space-between;
 
     padding: 1.6rem;
-
-
 }
 
 .page-header .top-bar-container a{
@@ -77,5 +75,4 @@
     .page-header .header-content strong{
         max-width: 350px;
     }
-    
 }
