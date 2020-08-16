@@ -1,0 +1,21 @@
+{
+  "name": "proffy",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloshssouza/proffy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carloshssouza/proffy/issues"
+  },
+  "homepage": "https://github.com/carloshssouza/proffy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
